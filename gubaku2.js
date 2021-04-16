@@ -13,7 +13,7 @@ const loadPage = async () => {
             for (let i = 1; i > 0; i--) {
 
                 let {value: satu} = await Swal.fire({
-                    title: 'Giliran Pertama<br>Masukkan Nama',
+                    title: 'Giliran<br>Pertama<br>Isi Nama',
                     input: 'text',
                     inputAttributes: {
                         autocapitalize: 'off'
@@ -26,7 +26,7 @@ const loadPage = async () => {
                     }
                 });
                 let {value: dua} = await Swal.fire({
-                    title: 'Giliran Kedua<br>Masukkan Nama',
+                    title: 'Giliran<br>Kedua<br>Isi Nama',
                     input: 'text',
                     inputAttributes: {
                         autocapitalize: 'off'
